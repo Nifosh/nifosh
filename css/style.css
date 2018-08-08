@@ -9,8 +9,12 @@
   font-weight: bold;
 }
 
-
-
+.container{
+  color: LimeGreen;
+}
+#name_title{
+  color: Black;
+}
 
 
 
@@ -179,7 +183,6 @@ body .fire .logs:before {
 
 
 
-
 @import url('../../fonts.googleapis.com/css%3Ffamily=Exo+2:400,500,600,700|Exo:400,500,600,700.css');
 @charset "utf-8";
 body { font-size: 15px; font-family: 'Exo 2', sans-serif; line-height: 1.4; color: #444; background-color: #f4f6f8; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
@@ -188,9 +191,9 @@ h1 { font-size: 32px; line-height: 44px; letter-spacing: -1px; }
 h2 { font-size: 24px; line-height: 32px; }
 h3 { font-size: 23px; }
 h4 { font-size: 16px; line-height: 1.6; }
-p { margin: 0 0 26px; line-height: 1.6; font-weight: 400; }
-ul, ol { }
-ul li, ol li { line-height: 1.8 }
+p { margin: 0 0 2px; font-weight: 400; }
+ul ol { }
+ul li ol { line-height: 2; }
 a { color: #da251c; text-decoration: none; -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
 a:focus, a:hover { text-decoration: none; color: #15549a; }
 strong {     font-weight: 600;}
